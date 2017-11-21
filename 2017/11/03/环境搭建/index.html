@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>新的一天 | 这是一篇博客</title>
+  <title>环境搭建 | 这是一篇博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="累什么都不懂!!!!">
+  <meta name="description" content="#一、什么是PHP？  php全名为Hypertext Preprocessor（全文本预处理器）。（原名：PaiHuangPian 有点像汉语拼音）它能够向前端提供数据，并且能和HTML进行嵌套生成动态网页，速度很快。 ###版本：PHP1.n – PHP7.n中前四个版本不常用，最常用的时PHP5及其子版本。  #二、怎么用PHP？ ###需要安装的软件：  1.PHP5.n2.Apache：">
 <meta property="og:type" content="article">
-<meta property="og:title" content="新的一天">
-<meta property="og:url" content="http://yoursite.com/2017/09/13/新的一天/index.html">
+<meta property="og:title" content="环境搭建">
+<meta property="og:url" content="http://yoursite.com/2017/11/03/环境搭建/index.html">
 <meta property="og:site_name" content="这是一篇博客">
-<meta property="og:description" content="累什么都不懂!!!!">
+<meta property="og:description" content="#一、什么是PHP？  php全名为Hypertext Preprocessor（全文本预处理器）。（原名：PaiHuangPian 有点像汉语拼音）它能够向前端提供数据，并且能和HTML进行嵌套生成动态网页，速度很快。 ###版本：PHP1.n – PHP7.n中前四个版本不常用，最常用的时PHP5及其子版本。  #二、怎么用PHP？ ###需要安装的软件：  1.PHP5.n2.Apache：">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-11-21T11:48:41.000Z">
+<meta property="og:updated_time" content="2017-11-21T11:55:08.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="新的一天">
-<meta name="twitter:description" content="累什么都不懂!!!!">
+<meta name="twitter:title" content="环境搭建">
+<meta name="twitter:description" content="#一、什么是PHP？  php全名为Hypertext Preprocessor（全文本预处理器）。（原名：PaiHuangPian 有点像汉语拼音）它能够向前端提供数据，并且能和HTML进行嵌套生成动态网页，速度很快。 ###版本：PHP1.n – PHP7.n中前四个版本不常用，最常用的时PHP5及其子版本。  #二、怎么用PHP？ ###需要安装的软件：  1.PHP5.n2.Apache：">
   
     <link rel="alternate" href="/atom.xml" title="这是一篇博客" type="application/atom+xml">
   
@@ -68,10 +68,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-新的一天" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="php篇-环境搭建" class="article article-type-php篇" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2017/09/13/新的一天/" class="article-date">
-  <time datetime="2017-09-13T12:50:20.000Z" itemprop="datePublished">2017-09-13</time>
+    <a href="/2017/11/03/环境搭建/" class="article-date">
+  <time datetime="2017-11-03T11:54:06.000Z" itemprop="datePublished">2017-11-03</time>
 </a>
     
   </div>
@@ -82,7 +82,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      新的一天
+      环境搭建
     </h1>
   
 
@@ -90,12 +90,36 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="累"><a href="#累" class="headerlink" title="累"></a>累</h2><p>什么都不懂!!!!</p>
+        <p>#一、什么是PHP？</p>
+<blockquote>
+<p>php全名为Hypertext Preprocessor（全文本预处理器）。（原名：PaiHuangPian 有点像汉语拼音）<br>它能够向前端提供数据，并且能和HTML进行嵌套生成动态网页，速度很快。</p>
+<p>###版本：<br>PHP1.n – PHP7.n中前四个版本不常用，最常用的时PHP5及其子版本。</p>
+</blockquote>
+<p>#二、怎么用PHP？</p>
+<p>###需要安装的软件：</p>
+<blockquote>
+<p>1.PHP5.n<br>2.Apache：Web服务器软件<br>3.Mysql</p>
+</blockquote>
+<p>###替代集成工具：</p>
+<blockquote>
+<p>windows：PHPStudy / WampServer<br>Mac：XAMPP (MySql和Apache两者都要能正常启动)<br><a href="https://www.apachefriends.org/zh_cn/index.html" target="_blank" rel="external">https://www.apachefriends.org/zh_cn/index.html</a></p>
+</blockquote>
+<p>###新建php文件位置注意点：</p>
+<blockquote>
+<p>公用主机ip地址：127.0.0.1</p>
+<p>WINDOWS：用PHPStudy的话，放在软件安装路径里面名为WWW的文件夹里，访问时启动PHPStudy，用主机ip + 文件名访问</p>
+<p>MAC：XAMPP，用法同上，找到软件文件夹里htdocs文件夹，新建文件，访问同上（如果出现乱码情况：header(“Content-Type:text/html;charset=UTF-8”);输入到PHP文件中）。</p>
+</blockquote>
+<p>#三、总结php文件书写步骤</p>
+<blockquote>
+<p>1.打开web服务器软件，windows的PHPStudy，Mac的XAMPP；<br>2.找到对应可网络访问的文件夹(服务器)：windows的WWW，Mac的htdocs；<br>3.在上文件夹中创建php文件，网络访问的路径都是相对于此文件夹；<br>4.书写php代码；<br>5.网络访问，如：MyPhp.php为创建的文件，<br>访问：<br>例 localhost/MyPhp.php<br>或 127.0.0.1/MyPhp.php<br>或 主机ip + /MyPhp.php</p>
+<p>###获得主机ip地址:<br>windows: cmd -&gt; ipconfig<br>mac：网络偏好设置 -&gt; 高级 -&gt; TCP/IP -&gt; IPv4对应值即为本机ip地址</p>
+</blockquote>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/13/新的一天/" data-id="cja9kclfr0002xjajun8wx7sj" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/11/03/环境搭建/" data-id="cja9kclfs0003xjajexidr0o7" class="article-share-link">Share</a>
       
       
     </footer>
@@ -104,19 +128,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2017/11/03/环境搭建/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          环境搭建
-        
-      </div>
-    </a>
   
-  
-    <a href="/2017/09/11/我的第一篇微博/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2017/09/13/新的一天/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">我的第一篇微博</div>
+      <div class="article-nav-title">新的一天</div>
     </a>
   
 </nav>
